@@ -1,0 +1,2 @@
+state = "sprHero";
+action = "Idle";
