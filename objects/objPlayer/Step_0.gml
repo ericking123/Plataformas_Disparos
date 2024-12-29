@@ -8,12 +8,9 @@
 		}
 		image_xscale = hor;
 		action = "Run";
-		//sprite_index = sprHeroRun;
-
 
 	} else {
 		action = "Idle";
-		//sprite_index = sprHeroIdle;
 
 	}
 #endregion

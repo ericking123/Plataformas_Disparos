@@ -5,8 +5,6 @@
 	if (!collision_rectangle(x-dimensionRectangulo, y, x+dimensionRectangulo, y+1, objWall, false, false)) {
 		gravity = 0.3;
 		action = "Jump";
-		// sprite_index = sprHeroJump;
-
 	}
 	if (vspeed > 0) {
 		var ground = collision_rectangle(x-dimensionRectangulo, y, x+dimensionRectangulo, y+vspeed, objWall, false, false);
@@ -24,10 +22,7 @@
 	}
 #endregion
 
-// show_debug_message(state + action);
-// show_debug_message(asset_get_index(state + action));
-
-sprite_index = asset_get_index(state + action);
+sprite_index = asset_get_index("spr" + state + action);
 
 
 
