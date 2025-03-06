@@ -9,7 +9,7 @@
 		image_xscale = hor;
 		action = "Run";
 
-	} else {
+	} else if (vspeed == 0) {
 		action = "Idle";
 
 	}

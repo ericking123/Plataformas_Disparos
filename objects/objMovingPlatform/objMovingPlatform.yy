@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"objWall",
+  "%Name":"objMovingPlatform",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objWall",
+  "name":"objMovingPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objWall",
+    "path":"objects/objWall/objWall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,11 +32,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprWall",
-    "path":"sprites/sprWall/sprWall.yy",
+    "name":"sprMovingPlataform",
+    "path":"sprites/sprMovingPlataform/sprMovingPlataform.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
