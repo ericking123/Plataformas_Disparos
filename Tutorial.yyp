@@ -41,6 +41,7 @@
   },
   "name":"Tutorial",
   "resources":[
+    {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},
     {"id":{"name":"objGun","path":"objects/objGun/objGun.yy",},},
     {"id":{"name":"objMovingPlatform","path":"objects/objMovingPlatform/objMovingPlatform.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"scrUpdateSprite","path":"scripts/scrUpdateSprite/scrUpdateSprite.yy",},},
     {"id":{"name":"bckTest","path":"sprites/bckTest/bckTest.yy",},},
     {"id":{"name":"bckTest01","path":"sprites/bckTest01/bckTest01.yy",},},
+    {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
     {"id":{"name":"sprGun","path":"sprites/sprGun/sprGun.yy",},},
     {"id":{"name":"sprHeroGunIdle","path":"sprites/sprHeroGunIdle/sprHeroGunIdle.yy",},},
     {"id":{"name":"sprHeroGunJump","path":"sprites/sprHeroGunJump/sprHeroGunJump.yy",},},
