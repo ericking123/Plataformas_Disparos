@@ -2,7 +2,7 @@
 	var hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 
 	if (hor != 0) {
-		scrMovement(sign(hor));
+		scrMovement(sign(hor), width);
 		action = "Run";
 
 	} else if (vspeed == 0) {
