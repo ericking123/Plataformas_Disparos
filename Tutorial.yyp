@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"Líneas temporales","folderPath":"folders/Líneas temporales.yy","name":"Líneas temporales","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notas","folderPath":"folders/Notas.yy","name":"Notas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Objetos/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rutas","folderPath":"folders/Rutas.yy","name":"Rutas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Salas","folderPath":"folders/Salas.yy","name":"Salas","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,6 +29,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bloques","folderPath":"folders/Sprites/Bloques.yy","name":"Bloques","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Characters","folderPath":"folders/Sprites/Characters.yy","name":"Characters","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Sprites/Characters/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hero","folderPath":"folders/Sprites/Characters/Hero.yy","name":"Hero","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"HeroGun","folderPath":"folders/Sprites/Characters/HeroGun.yy","name":"HeroGun","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Plataforms","folderPath":"folders/Sprites/Plataforms.yy","name":"Plataforms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,6 +44,7 @@
   "name":"Tutorial",
   "resources":[
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
     {"id":{"name":"objGun","path":"objects/objGun/objGun.yy",},},
     {"id":{"name":"objMovingPlatform","path":"objects/objMovingPlatform/objMovingPlatform.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
@@ -59,6 +62,9 @@
     {"id":{"name":"bckTest","path":"sprites/bckTest/bckTest.yy",},},
     {"id":{"name":"bckTest01","path":"sprites/bckTest01/bckTest01.yy",},},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
+    {"id":{"name":"sprEnemyDie","path":"sprites/sprEnemyDie/sprEnemyDie.yy",},},
+    {"id":{"name":"sprEnemyIdle","path":"sprites/sprEnemyIdle/sprEnemyIdle.yy",},},
+    {"id":{"name":"sprEnemyRun","path":"sprites/sprEnemyRun/sprEnemyRun.yy",},},
     {"id":{"name":"sprGun","path":"sprites/sprGun/sprGun.yy",},},
     {"id":{"name":"sprHeroGunIdle","path":"sprites/sprHeroGunIdle/sprHeroGunIdle.yy",},},
     {"id":{"name":"sprHeroGunJump","path":"sprites/sprHeroGunJump/sprHeroGunJump.yy",},},
@@ -78,6 +84,7 @@
   ],
   "templateType":"game",
   "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":8,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":-1,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"texturegroup1","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"texturegroup1","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

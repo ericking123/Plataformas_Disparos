@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objPlayer",
+  "%Name":"objEnemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"objWeapon","path":"objects/objWeapon/objWeapon.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objPlayer",
+  "name":"objEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Characters",
@@ -33,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprHeroIdle",
-    "path":"sprites/sprHeroIdle/sprHeroIdle.yy",
+    "name":"sprEnemyIdle",
+    "path":"sprites/sprEnemyIdle/sprEnemyIdle.yy",
   },
-  "spriteMaskId":{
-    "name":"sprHeroMaskCollision",
-    "path":"sprites/sprHeroMaskCollision/sprHeroMaskCollision.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
